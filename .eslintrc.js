@@ -5,8 +5,11 @@ module.exports = {
     es2023: true, // стандарт ECMAScript 2023 (ES14)
     jest: true, // для корректной работы ESLint с Jest
   },
+
   extends: 'airbnb-base', // Airbnb JavaScript Style
+
   rules: {
-    "eslint.quiet": true,
-  }
+    'no-console': 'off',
+    'no-plusplus': 'off',
+  },
 };
